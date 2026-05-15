@@ -22,22 +22,22 @@ export default function App() {
     {
       title: 'Old Coconut',
       image:
-        'fresh-coconuts-broken-wooden-wall.jpg',
+        '/fresh-coconuts-broken-wooden-wall.jpg',
     },
     {
       title: 'Coconut Sugar',
       image:
-        'healthy-jaggery-still-life-assortment.jpg',
+        '/healthy-jaggery-still-life-assortment.jpg',
     },
     {
       title: ' Wood & Others',
       image:
-        'carpentry-concept.jpg',
+        '/carpentry-concept.jpg',
     },
     {
       title: 'Logistics Fleet',
       image:
-        'industrial-port-container-yard.jpg',
+        '/industrial-port-container-yard.jpg',
     },
   ];
 
@@ -137,7 +137,7 @@ export default function App() {
 
           <div>
             <img
-              src="view-african-nature-landscape-with-trees-vegetation.jpg"
+              src="/view-african-nature-landscape-with-trees-vegetation.jpg"
               alt="Coconut"
               className="w-full h-[420px] sm:h-[550px] lg:h-[700px] object-cover rounded-[40px] border border-[#1E3650] shadow-2xl"
             />
@@ -153,7 +153,7 @@ export default function App() {
     
     <div>
       <img
-        src="top-view-coconuts-displayed-market.jpg"
+        src="/top-view-coconuts-displayed-market.jpg"
         alt="Warehouse"
         className="rounded-[40px] h-[420px] lg:h-[650px] object-cover w-full border border-[#1E3650]"
       />
@@ -298,7 +298,7 @@ export default function App() {
 
           <p className="text-[#AAB8C7] text-lg max-w-3xl mx-auto leading-relaxed mb-10">
             We are ready to support your coconut supply, coconut derivative products, 
-            and professional logistics distribution needs.
+            and professional logistics distribution needs.``
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center gap-4">
