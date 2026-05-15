@@ -43,44 +43,55 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#07121F] text-white overflow-x-hidden">
-      {/* Navbar */}
-      <header className="fixed top-0 left-0 right-0 z-50 bg-[#081521]/85 backdrop-blur-xl border-b border-[#1E3650]">
-        <div className="max-w-7xl mx-auto px-5 py-4 flex items-center justify-between">
-          <div>
-            <h1 className="text-xl sm:text-2xl font-bold tracking-[0.15em] text-[#D6B36A]">
-              DUTA KELAPA
-            </h1>
-            <p className="text-xs text-[#7C8FA3] uppercase tracking-[0.25em] mt-1">
-              Premium Coconut Supplier & Logistics Company
-            </p>
-          </div>
+    {/* Navbar */}
+    <header className="fixed top-0 left-0 right-0 z-[9999] bg-[#081521] border-b border-[#1E3650]">
+    <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
 
-          <nav className="hidden lg:flex gap-8 text-sm text-[#D4DEE8]">
-            <a href="#about" className="hover:text-[#D6B36A] transition">
-              About
-            </a>
-            <a href="#services" className="hover:text-[#D6B36A] transition">
-              Services
-            </a>
-            <a href="#products" className="hover:text-[#D6B36A] transition">
-              Products
-            </a>
-            <a href="#contact" className="hover:text-[#D6B36A] transition">
-              Contact
-            </a>
-          </nav>
+      {/* Logo */}
+      <div className="flex items-center gap-3">
+       <img
+          src="/logo.png"
+          alt="Duta Kelapa"
+          className="h-10 w-auto"
+       />
 
-          <a
-            href="https://wa.me/6285777991075"
-            className="hidden sm:flex bg-[#D6B36A] text-black px-5 py-3 rounded-full font-semibold hover:scale-105 transition"
-          >
-            Contact Us
-          </a>
-        </div>
-      </header>
+       <p className="hidden md:block text-[10px] text-[#7C8FA3] uppercase tracking-[0.28em] leading-relaxed">
+         Premium Coconut Supplier & Logistics Company
+       </p>
+      </div>
 
+    {/* Navigation */}
+    <nav className="hidden lg:flex items-center gap-8 text-sm text-[#D4DEE8]">
+      <a href="#about" className="hover:text-[#D6B36A] transition">
+        About
+      </a>
+
+      <a href="#services" className="hover:text-[#D6B36A] transition">
+        Services
+      </a>
+
+      <a href="#products" className="hover:text-[#D6B36A] transition">
+        Products
+      </a>
+
+      <a href="#contact" className="hover:text-[#D6B36A] transition">
+        Contact
+      </a>
+    </nav>
+
+    {/* CTA */}
+    <a
+      href="https://wa.me/6285777991075"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hidden sm:flex items-center bg-[#D6B36A] text-black px-5 h-11 rounded-full font-semibold hover:scale-105 transition"
+    >
+      Contact Us
+    </a>
+  </div>
+</header>
       {/* Hero */}
-      <section className="pt-36 lg:pt-44 pb-24 px-5">
+      <section className="pt-32 lg:pt-40 pb-24 px-5">
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-14 items-center">
           <div>
             <p className="uppercase tracking-[0.35em] text-[#B89652] text-sm mb-5">
