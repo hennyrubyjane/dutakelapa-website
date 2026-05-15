@@ -52,7 +52,7 @@ export default function App() {
        <img
           src="/logo.png"
           alt="Duta Kelapa"
-          className="h-10 w-auto"
+          className="h-18 w-auto"
        />
 
        <p className="hidden md:block text-[10px] text-[#7C8FA3] uppercase tracking-[0.28em] leading-relaxed">
