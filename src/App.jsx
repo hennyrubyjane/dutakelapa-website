@@ -298,7 +298,7 @@ export default function App() {
 
           <p className="text-[#AAB8C7] text-lg max-w-3xl mx-auto leading-relaxed mb-10">
             We are ready to support your coconut supply, coconut derivative products, 
-            and professional logistics distribution needs.``
+            and professional logistics distribution needs.
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center gap-4">
