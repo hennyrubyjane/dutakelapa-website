@@ -45,17 +45,17 @@ export default function App() {
     <div className="min-h-screen bg-[#07121F] text-white overflow-x-hidden">
     {/* Navbar */}
     <header className="fixed top-0 left-0 right-0 z-[9999] bg-[#081521] border-b border-[#1E3650]">
-    <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+    <div className="max-w-7xl mx-auto px-8 h-24 flex items-center justify-between">
 
       {/* Logo */}
       <div className="flex items-center gap-3">
        <img
           src="/logo.png"
           alt="Duta Kelapa"
-          className="h-18 w-auto"
+          className="h-16 w-auto"
        />
 
-       <p className="hidden md:block text-[10px] text-[#7C8FA3] uppercase tracking-[0.28em] leading-relaxed">
+       <p className="hidden md:block text-xs text-[#7C8FA3] uppercase tracking-[0.28em] leading-relaxed">
          Premium Coconut Supplier & Logistics Company
        </p>
       </div>
@@ -319,12 +319,14 @@ export default function App() {
             >
               WhatsApp Business
             </a>
-            <a
-            href="mailto:hellodutakelapa@gmail.com?subject=Business Inquiry"
+           <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=hellodutakelapa@gmail.com&su=Business%20Inquiry"
+            target="_blank"
+            rel="noopener noreferrer"
             className="border border-[#D6B36A] text-[#D6B36A] px-8 py-4 rounded-full hover:bg-[#D6B36A] hover:text-black transition"
             >
-              Request Quotation
-            </a>
+            Request Quotation
+          </a>
           </div>
         </div>
       </section>
